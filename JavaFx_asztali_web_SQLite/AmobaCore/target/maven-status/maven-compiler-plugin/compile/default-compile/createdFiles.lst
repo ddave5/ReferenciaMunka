@@ -1,0 +1,5 @@
+hu\alkfejl\Functions\Functions.class
+hu\alkfejl\DAO\GameDAO.class
+hu\alkfejl\Model\Game.class
+hu\alkfejl\DAO\GameDAOImp.class
+hu\alkfejl\Controller\GameController.class

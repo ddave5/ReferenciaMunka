@@ -1,0 +1,19 @@
+.mainframe{
+  background-image: linear-gradient(-90deg, #4257CE,#C94EC0);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25% ;
+  width:100%;
+}
+
+.statContainer{
+  display:block;
+  background-image: linear-gradient(-90deg, #4257CE,#C94EC0);
+}
+
+.splashContainer{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25% ;
+}

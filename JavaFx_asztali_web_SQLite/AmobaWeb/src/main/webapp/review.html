@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title>Review</title>
+		<style>
+			body{
+				background-image: linear-gradient(to bottom right, #4257CE, #C94EC0);
+				font-family: arial;
+				color: white;
+			}
+			#title_container{
+				margin: 40px 30;align-items: center;
+				justify-content: center;
+				display: flex;
+			}
+			.click_setup{
+				height: 38px;
+				width: 400px;
+			}
+			.load_button{
+				margin: 0px 10px;
+				height: 2.8em;
+				width: 200px;
+				background-color: Transparent;
+				border: 1px solid white;
+				border-radius: 10px;
+				color: white;
+			}
+			#main_area{
+				display: flex;
+			}
+			#info_panel{
+				margin: auto;
+				margin-top: 20px;
+			}
+			.info_block{
+				display: flex;
+				text_align: center;
+				width: 300px;
+				margin: 40px 0;
+			}
+			.center_button{
+				display: flex;
+				justify-content: center;
+			}
+			.back_button{
+				margin: 15px 0;
+				height: 2.8em;
+				width: 100px;
+				background-color: Transparent;
+				border: 1px solid white;
+				border-radius: 10px;
+				color: white;
+			}
+			.game_label{
+				width: 180px;
+			}
+			#game_container{
+				margin: auto;
+			}
+			#game_area{
+				border: 1px solid white;
+				width: 450px;
+				height: 450px;
+			}
+			#play_settings{
+				margin: 20px 0;
+				width: 450px;
+			}
+			.img_container{
+				width: 15.5%;
+				display: inline-block;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="title_container">
+			<div class="setup_value">
+				<select id="time"  class="click_setup">
+				  <option value="PvCpu_2020-04-19 14:12:13">PvCpu_2020-04-19 14:12:13</option>
+				</select>
+			</div>
+			<div class="menu_button"><button type="button" class="load_button">Load this Game</button></div>
+		</div>
+		<div id="main_area">
+			<div id="info_panel">
+				<div class="info_block">
+					<div class="game_label">Game Type:</div>
+					<div class="game_value">Player vs CPU</div>
+				</div>
+				<div class="info_block">
+					<div class="game_label">Table Size:</div>
+					<div>15</div>
+				</div>
+				<div class="info_block">
+					<div class="game_label">Time Limit:</div>
+					<div>No Limit</div>
+				</div>
+				<div id="button_container">
+					<div class="center_button"><button type="button" class="back_button">Back to main</button></div>
+					<div class="center_button"><button type="button" class="back_button">Exit</button></div>
+				</div>
+			</div>
+			<div id="game_container">
+				<div id="game_area"></div>
+				<div id="play_settings">
+					<div class="img_container"><img src="../images/moveToStart.png"></div>
+					<div class="img_container"><img src="../images/oneStepBackward.png"></div>
+					<div class="img_container"><img src="../images/pause.png"></div>
+					<div class="img_container"><img src="../images/play.png"></div>
+					<div class="img_container"><img src="../images/oneStepAhead.png"></div>
+					<div class="img_container"><img src="../images/moveToEnd.png"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

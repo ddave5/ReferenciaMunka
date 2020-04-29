@@ -1,0 +1,38 @@
+.felso{
+    -fx-pref-width: 1280;
+    -fx-pref-height: 400;
+}
+
+.also{
+    -fx-pref-width: 1280;
+    -fx-pref-height: 400;
+}
+
+.bejelentkezo{
+    -fx-pref-width: 1280;
+    -fx-pref-height: 570;
+}
+
+/***********************BEJELENTKEZO KEZDETE**************************/
+
+.cim{
+    -fx-font-size: 40;
+}
+
+.email{
+    -fx-pref-width:100;
+    -fx-pref-height:40;
+    -fx-font-size: 20;
+}
+
+.hiba{
+    -fx-font-size: 24;
+    -fx-fill:#FF0000;
+}
+
+/*********************** BEJELENTKEZŐ VÉGE ***************************/
+
+.gomb{
+    -fx-pref-width: 120;
+    -fx-pref-height: 40;
+}

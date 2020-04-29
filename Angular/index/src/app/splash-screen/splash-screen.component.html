@@ -1,0 +1,6 @@
+<div class="splash-category">
+  <mat-card  matRipple [matRippleColor]="category.color"
+    (click)="callSelectC.emit(category.value)" webOnHover>
+    {{category.title}}
+  </mat-card>
+</div>

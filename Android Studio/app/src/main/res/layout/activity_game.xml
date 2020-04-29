@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hatter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="10sp">
+
+            <TextView
+                android:id="@+id/ops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ops"
+                android:layout_marginRight="5sp"
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/jb"/>
+
+            <TextView
+                android:id="@+id/counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/jb"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/hangman"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            app:srcCompat="@drawable/hang0" />
+
+        <TextView
+            android:id="@+id/word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30sp"
+            android:fontFamily="@font/jb"
+            android:text="My World"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/badtips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/badtiptext"
+                android:layout_marginRight="5sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/jb"/>
+
+            <TextView
+                android:id="@+id/letterList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/jb" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/inputLetter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hintplain"
+            android:inputType="textPersonName"
+            android:layout_margin="30sp"
+            android:gravity="center_horizontal"
+            android:maxLength="1"/>
+
+        <Button
+            android:id="@+id/backToMain"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:background="@drawable/mybutton"
+            android:text="@string/backToMain"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/jb"
+            android:textColor="#ffffff"
+            android:onClick="gameBackToMain"/>
+
+    </LinearLayout>
+</RelativeLayout>

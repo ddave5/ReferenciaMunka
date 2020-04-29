@@ -1,0 +1,35 @@
+<web-nav [categories]="categories" [selectedCategory]="category" (callSelectC)="onSelect($event)"></web-nav>
+<div class="mainframe">
+<div [ngSwitch]="category" class="fullBox"> 
+  <div *ngSwitchCase="'vigjatek'" class="container">
+        <web-movies *ngFor="let vigjatek of vigjatekok" [movie]="vigjatek" (getMovie)="onFavorite($event)"></web-movies>
+      </div>
+      <div *ngSwitchCase="'romantikus'" class="container">
+        <web-movies *ngFor="let romantikus of romantikusok" [movie]="romantikus" (getMovie)="onFavorite($event)"></web-movies>
+      </div>
+      <div *ngSwitchCase="'horror'" class="container">
+        <web-movies *ngFor="let horror of horrorok" [movie]="horror" (getMovie)="onFavorite($event)"></web-movies>
+      </div>
+      <div *ngSwitchCase="'thriller'" class="container">
+          <web-movies *ngFor="let thriller of thrillerek" [movie]="thriller" (getMovie)="onFavorite($event)"></web-movies>
+      </div>
+      <div *ngSwitchCase="'drama'" class="container">
+          <web-movies *ngFor="let drama of dramak" [movie]="drama" (getMovie)="onFavorite($event)"></web-movies>
+      </div>
+      <div *ngSwitchCase="'akcio'" class="container">
+          <web-movies *ngFor="let akcio of akciok" [movie]="akcio" (getMovie)="onFavorite($event)"></web-movies>
+      </div>
+      <div *ngSwitchCase="'kedvenceim'" class="container">
+        <div *ngIf="favorites.length == 0">
+          <h3 class="empty"> Jelenleg nincs kedvenc filmje!</h3>
+        </div>
+        <web-movies *ngFor="let filmek of favorites" [movie]="filmek" (getMovie)="onFavorite($event)"></web-movies>
+      </div>
+      <div *ngSwitchCase="'statisztika'" class="statContainer">
+        <web-statisztika></web-statisztika>
+      </div>
+      <div *ngSwitchDefault class="splashContainer">
+        <web-splash-screen  *ngFor="let category of categories" [category]="category" (callSelectC)="onSelect($event)"></web-splash-screen>
+      </div>
+   </div>
+  </div>

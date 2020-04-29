@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Busa Kristóf">
+		<meta name="author" content="Félegyházi Dávid">
+
+		<link rel="shortcut icon" href="../img/icon.png" />
+		<title>A Jurassic Park Weblapja-Webshop</title>
+		<link rel="stylesheet" type="text/css" href="websitecss.css">
+	</head>
+	<body>
+		<header>  
+			<h1> WELCOME TO JURASSIC PARK! </h1>
+		</header>
+			<div class="topnav-centered">
+				<a href="home.html"><img src="../img/JurrasicParkLogo.png" alt=jplogo></a>
+			</div>
+			
+			<nav>
+			<div class="topnav">
+
+			<div class="dropdown">
+				<button class="dropbtn">Választható állatok</button>
+					<div class="dropdown-content">
+						<a href="Brachiosaurus.html">Brachiosaurus</a>
+						<a href="Compi.html">Compi</a>
+						<a href="Mosasaurus.html">Mosasaurus</a>
+						<a href="Stegosaurus.html">Stegosaurus</a>
+						<a href="Tyrannosaurus.html">Tyrannosaurus rex</a>
+						<a href="Velociraptor.html">Velociraptor</a>
+					</div>
+			</div>
+
+			<div class="topnav-right">
+				<a href="Webshop.html" class="active">Webshop</a>
+				<a href="FAQ.html">GYIK</a>
+			</div>
+
+		</div>
+		</nav>
+		
+		<main>
+		<section>
+			<div class="main">
+									<p><h1>WEBSHOP</h1>
+			<div class="box2">
+			<form autocomplete="off" action="Orders.html" method="post" enctype="text/plain">
+			<div class=left>
+				<div class="card">
+			<p>Kérjük válassza ki a megvásárolni kívánt állatot!(Egyszerre csak egy típus választható! Több állathoz többször kell kitölteni!)</p>
+				<hr>
+				<label class="datas">Megrendelő neve*: <input type="text"  name="nev" placeholder="Nev" required  autofocus/></label> <br>
+				<label class="datas">E-mail*: <input type="email"  name="email" placeholder="E-mail" required/></label> <br/>
+				<label class="datas">Telefonszám(+36)*: <input type="text" size="9" maxlength="9"  name="telnumber" placeholder="Telefon" required/></label><br>
+				
+				<hr>
+				<label class="datas">Szállítási cím:</label>
+				<hr>
+				<Label class="datas">Irányítószám*:<input type="text"  maxlength="4" size="4"  name="4_jegyu_irsz" id="4_jegyu_irsz" placeholder="Irsz" required /></label>
+				<label class="datas">Város*: <input type="text"  name="varos"  placeholder="Varos" required /></label><br>
+				<label class="datas">Utca, házszám*: <input type="text"  name="uccha" size="40" placeholder="Utca, hazszam" required /></label>
+			
+				</div>
+			</div>
+			
+			<div class="right">
+				<div class="card">
+				<hr>
+				<label>Válassza ki a megvásárolni kívánt dinoszauruszt*: </label> 
+				<select name="dinos">
+					<option selected disabled>Válassz</option>
+					<option value="brachi">Brachiosaurus</option>
+					<option value="compi">Compi</option>
+					<option value="mosi">Mosasaurus</option>
+					<option value="stegi">Stegosaurus</option>
+					<option value="rexi">Tyrannosaurus</option>
+					<option value="raptor">Velociraptor</option>
+				</select> <br/>			
+				
+				<label class="datas"> Rendelt állat(ok) száma*: <input type="number"  min="1"  name="dinnumber" value="1" /></label> <br/>				
+
+				<label class="datas">Választott állat fejlettségi szintje*: </label> <br>
+			  <label for="radio1id1">Tojás </label>
+			  <input type="radio" id="radio1id1" name="radio1" value="1" />
+
+			  <label for="radio1id2">Kölyök </label>
+			  <input type="radio" id="radio1id2" name="radio1" value="2" checked  />
+
+			  <label for="radio1id3">Felnőtt(feláras) </label>
+			  <input type="radio" id="radio1id3" name="radio1" value="3" />
+			  <hr>
+
+			  
+
+				<fieldset>
+				<legend>Választható extrák:</legend>
+			  <label for="checkbox1">Lizinfüggőség: </label>
+			  <input type="checkbox" id="checkbox1" name="extra1" value="lizin" checked /> <br/>
+			  <label for="checkbox2">Nemváltó képesség: </label>
+			  <input type="checkbox" id="checkbox2" name="extra2" value="sexchange" /> <br/>
+
+			  <label for="checkbox3">Testhő-rejtés: </label>
+			  <input type="checkbox" id="checkbox3" name="extra3" value="temperature" /> <br/>
+			  <label for="checkbox4">Színváltás: </label>
+			  <input type="checkbox" id="checkbox4" name="extra4" value="colorch" /> <br/>
+
+			  <label for="checkbox3">Extra raptor DNS: </label>
+			  <input type="checkbox" id="checkbox5" name="extra5" value="temperature" /> <br/>
+			  <label for="checkbox4">Ki tudja nyitni az ajtót kilinccsel: </label>
+			  <input type="checkbox" id="checkbox6" name="extra6" value="colorch" /> <br/>
+			  </fieldset>
+			  
+				</div>
+			</div>
+
+
+
+			  Megjegyzés:
+				<br>
+				<textarea name="szoveg" rows="6" cols="60"></textarea> <br/>
+
+			  <input type="reset" value="Törlés" /> <br/>
+
+			  <input type="image" src="../img/send.png" alt="Küldés" width="75" height="40" /> <br/>
+			<div class="warning">*: kötelezően kitöltendő mezők<br>
+			  A küldés gombra kattintva elfogadja az oldal felhasználási feltételeit!
+			  
+			</div>
+
+			
+			<br>	
+			<br>	
+			</form>
+			</div>
+									
+			</div>
+		</section>
+		</main>
+
+			
+
+
+		<footer>
+			<div class="footerLeft">
+				<div class="bigger">Helyszín: </div>	
+				<p>49-560 Kamehameha Highway </p>
+				<p>Kaneohe, Hawaii</p>
+				<p>96744 </p>
+				<p>United States</p>
+			</div>
+			<div class="footerCenter"> 
+				<div class="bigger"><p>Kövess minket: </p></div>
+				<div class="icons">
+					<a href="https://www.facebook.com/JurassicWorld/"><img src="../img/facebookIcon.png" alt=fblogo></a>
+					<a href="https://twitter.com/JurassicWorld"><img src="../img/twitterIcon.png" alt=twlogo></a>
+					<a href="https://www.instagram.com/jurrasic_park_world/"><img src="../img/instagramIcon.png" alt=inslogo></a>
+				</div>
+			</div>
+			<div class="footerRight">
+				<a href="#top"><img src="../img/backToTopIcon.png" alt=btlogo></a>
+			</div>
+		</footer>
+
+	</body>
+</html>
+
+

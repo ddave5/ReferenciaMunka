@@ -1,0 +1,15 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+      <a mat-button (click)="select('')">
+        MovieCategoryComparator
+      </a>
+      <button mat-button *ngFor="let item of categories"
+       (click)="select(item.value)">
+        {{item.title}}&nbsp;
+        <mat-icon>{{item.icon}}</mat-icon>
+      </button>
+    </mat-toolbar-row>
+    <mat-toolbar-row>
+      <span class="splash-title">{{sCategoryTitle}}</span>
+    </mat-toolbar-row>
+  </mat-toolbar>

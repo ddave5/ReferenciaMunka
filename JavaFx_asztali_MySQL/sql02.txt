@@ -1,0 +1,38 @@
+/*1.feladat*/
+SELECT nev, szuldatum FROM sofor
+WHERE YEAR(szuldatum) < 1950
+ORDER BY nev;
+
+/*2.feladat*/
+SELECT * FROM utas
+WHERE lakcim not like'Szeged%' and telefon LIKE '20%';
+
+/*3.feladat*/
+
+SELECT SUM(km) FROM sofor, fuvar
+WHERE sofor.rendszam = Fuvar.rendszam AND sofor.nev = 'Kiss Tibor';
+
+/*4.feladat*/
+
+SELECT indul FROM Sofor, Utas, Fuvar;
+WHERE sofor.rendszam = Fuvar.rendszam AND Fuvar.utaskod = Utas.utaskod AND utas.nev = 'Zalai Egon';
+
+/*5.feladat*/
+
+SELECT nev, SUM(dij*km) FROM Fuvar, Sofor, Tarifa
+WHERE Fuvar.tarifakod = Tarifa.tarifakod AND Sofor.rendszam = Fuvar.rendszam
+
+/*6.feladat*/
+
+SELECT rendszam, COUNT(*)/* AS darab*/ FROM Fuvar
+GROUP BY rendszam
+HAVING COUNT(*)/*darab*/ >=10;
+
+/*7.feladat*/
+SELECT nev, szuldatum FROM Sofor
+WHERE szuldatum = (SELECT MIN(szuldatum) FROM Sofor);
+
+/*8.feladat*/
+
+SELECT indul FROM  fuvar
+WHERE indul BETWEEN '2012-

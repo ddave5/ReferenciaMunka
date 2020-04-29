@@ -1,0 +1,31 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>MainPagePanel</servlet-name>
+    <jsp-file>/MainPagePanel.jsp</jsp-file>
+  </servlet>
+  <servlet>
+    <servlet-name>GamePanel</servlet-name>
+    <jsp-file>/GamePanel.jsp</jsp-file>
+  </servlet>
+  <servlet>
+    <servlet-name>ReplayPanel</servlet-name>
+    <jsp-file>/ReplayPanel.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MainPagePanel</servlet-name>
+    <url-pattern>/MainPagePanel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GamePanel</servlet-name>
+    <url-pattern>/GamePanel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplayPanel</servlet-name>
+    <url-pattern>/ReplayPanel</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,19 @@
+.mainframe{
+    -fx-border: 5;
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #4257CE,#C94EC0);
+}
+
+.leftText{
+    -fx-font-size: 18;
+    -fx-fill: #FFFFFF;
+}
+
+.botButton{
+    -fx-background-color: transparent;
+    -fx-border:3;
+    -fx-border-color:#FFFFFF;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20;
+    -fx-border-radius: 15 15 15 15;
+    -fx-background-radius: 15 15 15 15;
+}

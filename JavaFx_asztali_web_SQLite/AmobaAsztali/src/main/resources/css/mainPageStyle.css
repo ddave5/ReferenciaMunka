@@ -1,0 +1,30 @@
+.mainframe{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #4257CE,#C94EC0);
+}
+
+.title{
+    -fx-font-size: 50;
+    -fx-fill:#FFFFFF;
+}
+
+.centerBox{
+    -fx-font-size: 20;
+    -fx-border-color:#FFFFFF;
+    -fx-border-width:20;
+    -fx-border-radius: 15 15 15 15;
+    -fx-background-radius: 15 15 15 15;
+}
+
+.centerButton{
+    -fx-background-color: rgb(0,0,0,0);
+    -fx-border:3;
+    -fx-border-color:#FFFFFF;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20;
+    -fx-border-radius: 15 15 15 15;
+    -fx-background-radius: 15 15 15 15;
+}
+
+.centerText{
+    -fx-fill: #FFFFFF;
+}

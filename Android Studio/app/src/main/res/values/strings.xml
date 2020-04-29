@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="PlayButton">Play</string>
+    <string name="SettingsButton">Settings</string>
+    <string name="exitButton">Exit</string>
+    <string name="LanguageText">What language words will be?</string>
+    <string name="SoundText">Sound</string>
+    <string name="OnMusic">On</string>
+    <string name="OffMusic">Off</string>
+    <string name="SaveButton">Save</string>
+    <string name="hungarianDescription">Hungarian language</string>
+    <string name="usDescription">English language</string>
+    <string name="yesButton">Yes</string>
+    <string name="noButton">No</string>
+    <string name="mainpageImage">mainpageimage</string>
+    <string name="ops">Remain tips: </string>
+    <string name="badtiptext">Bad tips: </string>
+    <string name="hintplain">Input one letter</string>
+    <string name="backToMain">Back to main</string>
+    <string name="youwon">You Won!</string>
+    <string name="youlose">You Lose!</string>
+    <string name="restart">Restart</string>
+    <string name="goodAnswer">Good answer: </string>
+</resources>

@@ -1,0 +1,21 @@
+<mat-card webOnHover class="kartya">
+  <mat-card-header>
+    <mat-card-title class="title">{{movie.title}}<small> ({{movie.length}}p)</small></mat-card-title>
+    <mat-card-subtitle class="text">
+      <div [style.backgroundColor]="movie.imdb > 9 ? '#960505': movie.imdb > 8.5 ? '#2E8B57' : movie.imdb > 8 ? '#C95B0C' : movie.imdb > 7.5 ? '#D2B55B' : '#a9a9a9' " class="imdb">{{movie.imdb}}</div>
+      <ng-container *ngFor="let category of movie.category; let i = index">{{category}}&nbsp;</ng-container>
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content class="almafa">
+    <img [src]="movie.img" alt="borito">
+  </mat-card-content>
+  <mat-card-actions *ngIf="hasAction" class="buttonAction">
+    <button class="movieButton" mat-button (click)="toggleStar()">
+      <mat-icon *ngIf="movie.star;else star" 
+      style="color: #fffc00;">star</mat-icon>
+      <ng-template #star>
+        <mat-icon>star_outline</mat-icon>
+      </ng-template>
+    </button>
+  </mat-card-actions>
+</mat-card>

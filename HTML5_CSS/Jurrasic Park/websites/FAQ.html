@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Busa Kristóf">
+		<meta name="author" content="Félegyházi Dávid">
+		<meta http-equiv="refresh" content="300">
+		<link rel="shortcut icon" href="../img/icon.png" />
+		<title>A Jurassic Park Weblapja-GYIK</title>
+		<link rel="stylesheet" type="text/css" href="websitecss.css">
+		<style>
+			@media print {
+				img {
+					display: none !important;
+					height: 0;
+				}
+				h1 {
+					color: black;
+					page-break-before: always;
+				}
+				table, figure {
+					page-break-inside: avoid;
+				}
+				footer, aside.adleft, aside.adright{
+					display: none !important;
+					height: 0;
+				}
+				}
+			@page :left {
+				margin: 0.5cm;
+				@bottom-left {
+					content: "Oldal " counter(page) " / " counter(pages);
+			}
+      }
+    </style>
+	</head>
+	<body>
+		<header>  
+			<h1> WELCOME TO JURASSIC PARK! </h1>
+		</header>
+			<div class="topnav-centered">
+				<a href="home.html"><img src="../img/JurrasicParkLogo.png" alt="logo"></a>
+			</div>	
+			<nav>
+			<div class="topnav">
+
+				<div class="dropdown">
+					<button class="dropbtn">Választható állatok</button>
+						<div class="dropdown-content">
+							<a href="Brachiosaurus.html">Brachiosaurus</a>
+							<a href="Compi.html">Compi</a>
+							<a href="Mosasaurus.html">Mosasaurus</a>
+							<a href="Tyrannosaurus.html">Tyrannosaurus rex</a>
+							<a href="Velociraptor.html">Velociraptor</a>
+							<a href="Stegosaurus.html">Stegosaurus</a>
+						</div>
+				</div>
+>
+			<div class="topnav-right">
+				<a href="Webshop.html">Webshop</a>
+				<a href="FAQ.html" class="active">GYIK</a>
+			</div>
+		
+		</div>
+		</nav>
+		
+		<aside class="adleft">
+			<img src="../img/ad1.jpg" width="200" height="400" alt="ad1">
+		</aside>
+		
+		<aside class="adright">
+			<a href="http://www.weirdshityoucanbuy.com/laser-shooting-dinosaur-sweater.html"> <img src="../img/ad2.jpg" width="250" height="250" alt="ad1"> </a>
+		</aside>
+		
+		<main id="FAQ">
+			<h1> Gyakran Ismételt Kérdések</h1>
+			<section id="item1">
+				<div class="box"><a href="#item1"> Mennyibe kerül egy jegy? </a></div>
+				<table class="FAQtable" >
+					<tr class="FAQtr">
+						<th class="FAQth">Korosztály</th>
+						<th class="FAQth">Árak</th>
+					</tr>
+					<tr class="FAQtr">
+						<td class="FAQtd">0-4 éves (Kisgyermek) </td>
+						<td class="FAQtd">Ingyenes</td>
+					</tr>
+					<tr class="FAQtr">
+						<td class="FAQtd">4-14 éves (Gyerek)</td>
+						<td class="FAQtd">2000 Ft/fő</td>
+					</tr>
+					<tr class="FAQtr">
+						<td class="FAQtd">14-18 éves (Tinédzser)</td>
+						<td class="FAQtd">3000 Ft/fő</td>
+					</tr>
+					<tr class="FAQtr">
+						<td class="FAQtd">18- éves (Felnőtt)</td>
+						<td class="FAQtd">4000 Ft/fő</td>
+					</tr>
+					<tr class="FAQtr">
+						<td class="FAQtd">Családi jegy: 2 felnőtt, 2 gyerek </td>
+						<td class="FAQtd">10000 Ft</td>
+					</tr>
+					<tr class="FAQtr">
+						<td class="FAQtd">Csoportos jegy 10+ főtől</td>
+						<td class="FAQtd">Minden csoporttagnak 500 forinttal kevesebb</td>
+					</tr>
+				</table>
+			</section>
+			<section id="item2">
+				<div class="box"><a href="#item2">Hány fajta dínó található a parkban? </a></div>
+				<p> Jelenleg 37 fajta dínó található meg a parkunk területén, de tudósaink folyamatosan dolgoznak a különböző kihalt fajok felélesztéséért. Ezek közt megtalálható növényevő, illetve ragadozó is, vannak
+					kisebbek és nagyobbak egyaránt, szóval mindenki megtalálhatja a saját kedvencét és akár ajándékboltunkban meg is veheti a plüss valójukat vagy néhány fajtából magát a dínót is!</p>
+			</section>
+			<section id="item3">
+				<div class="box"><a href="#item3"> Van olyan tömegközlekedési eszköz, amellyel oda tudunk könnyen jutni? </a></div>
+				<p> Kettes illetve a hetvenkilences busz is a parkhoz viszi ki minden kedves látogatót. Ezenkívül minden reggel és délután indítunk egy saját buszt, amelyen egyik munkatársunk mutatja be a parkot és 
+					kelti fel az érdeklődést a park minden állatkájával kapcsolatban, sőt, vissza is viszi önöket a kiindulási pontra! Erre a járatra ingyenes a felszállás, viszont előre kell foglalni jegyet és csak 
+					a Kalandozni Jó! turisztikai ügynökség által érkezett vendégeinknek tudjuk felajánlani. </p>
+			</section>
+			<section id="item4">
+				<div class="box"><a href="#item4"> Mikor van nyitva illetve zárva a park?</a></div>
+				<p> Hétköznapokon 8:00-20:00, szombaton 8:00-21:00, vasárnap 8:00-18:00 között van nyitva a park. Ünnepnapokon ünnepi nyitvatartásunk van és a park december 15-től március 15-ig zárva van. Illetve a park
+					születésnapján, november nyolcadikán a Park egy teljes napig nyitva áll!! 
+				</p>
+			</section>
+			<section id="item5">
+				<div class="box"><a href="#item5"> Étterem illetve játszótér található-e a park környékén? </a></div>
+				<p> Parkunkban többféle étkezési lehetőség is megtalálható. A különböző standoknál vehet Stegoburger menüt ajándék Stegosaurus plüssel vagy ha kicsit éhesebb akkor a Rex menüt tudom ajánlani, ahol akkora 
+					sült húst kap, mint a Tyrannosaurus Rex!! Ezenkívül van éttermünk, ahol szakácsunk a legtökéletesebb ízvilágú ételeit készíti el önnek!
+				</p>
+				<p> Játékokból pedig nincs hiány, mivel kalandpark, ugrálóvár és játszótér is megtalálható a parkunkban, amelyek ingyenesen használható minden fiatal látogató számára! Ezenkívül gyerekfelügyelet is megtalálható,
+					amely 2000 ft/h/fő vehető igénybe.</p>
+			</section>
+			<section id="item6">
+				<div class="box"><a href="#item6"> Lehet-e dínót simogatni vagy dínót lovagolni? </a></div>
+				<p> Lehet, néhány egyed kifejezetten szereti az emberi közeledést, sőt a simogatást is, így ezek a példányok, amíg kicsik, addig simogatókban találhatóak. Jó tanács: a dínókat is a hasukon keresztül lehet a 
+					legjobban szerethetővé tenni, így érdemes magukkal hozni néhány finomabb ágat! :)
+				</p>
+				<p> Természetesen, ezek a dínók nagyobb korukra elérhetik a 200-250 centimétert is, és így szoktunk lovaglást, sőt, néhány játékosabb dínó esetén rodeót és versenyt is hírdetni, amelyek november nyolcadikán lesznek
+					a park területén belül!</p>
+			</section>
+		</main>
+		
+		<footer>
+			<div class="footerLeft">
+				<div class="bigger">Helyszín: </div>
+				<p>49-560 Kamehameha Highway </p>
+				<p>Kaneohe, Hawaii</p>
+				<p>96744 </p>
+				<p>United States</p>
+			</div>
+			<div class="footerCenter"> 
+				<div class="bigger"><p>Kövess minket: </p></div>
+				<div class="icons">
+					<a href="https://www.facebook.com/JurassicWorld/"><img src="../img/facebookIcon.png" alt="facebook"></a>
+					<a href="https://twitter.com/JurassicWorld"><img src="../img/twitterIcon.png" alt="twitter"></a>
+					<a href="https://www.instagram.com/jurrasic_park_world/"><img src="../img/instagramIcon.png" alt="instagram"></a>
+				</div>
+			</div>
+			<div class="footerRight" >
+				<a href="#top"><img src="../img/backToTopIcon.png" alt="backToTop"></a>
+			</div>
+		</footer>
+
+	</body>
+</html>
+
+

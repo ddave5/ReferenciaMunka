@@ -1,0 +1,44 @@
+.mainframe{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #4257CE,#C94EC0);
+}
+
+.topText{
+    -fx-font-size: 25;
+    -fx-fill:#FFFFFF;
+}
+.topRedX{
+    -fx-font-size: 16;
+    -fx-fill:#FF0000;
+}
+.topBlueO{
+    -fx-font-size: 16;
+    -fx-fill:#0000FF;
+}
+.timeLeft{
+    -fx-font-size: 25;
+    -fx-text-fill:#FFFFFF;
+    -fx-font-weight:bold;
+}
+
+.leftButton{
+    -fx-background-color: rgb(0,0,0,0);
+    -fx-border:3;
+    -fx-border-color:#FFFFFF;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20;
+    -fx-border-radius: 15 15 15 15;
+    -fx-background-radius: 15 15 15 15;
+}
+
+.mapGridPane{
+    -fx-background-color:#cccccc;
+}
+
+.redX{
+    -fx-text-fill:#FF0000;
+    -fx-font-weight:bold;
+}
+.blueO{
+    -fx-text-fill:#0000FF;
+    -fx-font-weight:bold;
+}

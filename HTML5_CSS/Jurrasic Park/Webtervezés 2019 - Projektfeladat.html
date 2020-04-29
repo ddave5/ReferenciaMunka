@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Webtervezés 2019 - Projektfeladat</title>
+    <style type="text/css">
+      body {
+        font-family: "Segoe UI",Arial,sans-serif;
+        background-color: #fcfcfc;
+        font-size:16px;
+        padding-bottom:50px;
+      }
+      table,td,th {
+        border-collapse: collapse;
+      }
+      th,td {
+        border: 1px solid #000000;
+        padding:5px;
+      }
+      table {
+        margin:10px;
+      }
+      td:first-child {
+        /*font-weight:bold;*/
+        vertical-align: top;
+      }
+      .stfill {
+        font-weight:bold;
+        color:#DD4132;
+      }
+      .sum {
+        border-top:2px solid #000000;
+      }
+      .sum td {
+        font-weight:bold;
+      }
+      .task {
+        /*font-weight:bold;*/
+      }
+      .subtask {
+        padding-left:25px;
+      }
+      .note {
+        font-size:12px;
+        display:block;
+      }
+      tr.sum>td:nth-child(2),
+      td:nth-child(3),
+      td:nth-child(4) {
+        text-align: center;
+      }
+      tr.header {
+        border-bottom: 2px solid #000000;
+      }
+      .example {
+        font-style: italic;
+        color:grey;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Webtervezés 2019 - Projektfeladat követelmények</h1>
+    <div>
+      <h2>Általános elvárások</h2>
+      <ul>
+        <li>A projektfeladat elfogadásához 5 db html oldalt kell elkészíteni a választott témának megfelelően.</li>
+        <li>Az elkészített feladatot egy zip fájlban kell feltölteni CooSpace-re a követelményekben megfogalmazott határidőig.</li>
+        <li>Kicsomagolás után a HTML fájlok böngészőben történő megnyitásával a használt útvonalaknak (css,kép) helyesnek kell lenniük.</li>
+        <li>A projektfeladat kötelező részét képezi a választott téma ismertetése. A továbbiakban az elkészített feladatoknak a választott témának kell megfelelniük.</li>
+        <li>A fenti elvárások a pontozásban "Formai követelmények" néven szerepelnek, elemenként 0,5 pont.</li>
+        <li>Csak működő, látható és értelmes formázások érnek pontot. Például nem ér pontot: fehér háttéren fehér szöveg, CSS animáció ami nem jelenik meg a weboldalon, a rossz útvonalak miatt nem működő/látható tartalom.</li>
+        <li>A projekt elkészítése során nem használható semmilyen CSS könyvtár (mint pl. Bootstrap).</li>
+        <li>Ikonkészleteket és fontokat viszont lehet használni (pl. Font Awesome).</li>
+        <li>A táblázatban dőlt betűkkel vannak jelölve azok a követelmények (5.3, 5.4), amelyek javítására lehetőség van az értékelést követően.</li>
+        <li>Az 5.3-as és 5.4-es követelményeknél fel kell sorolni a megvalósított elemeket. Az összes követelménynél (1, 2, 3, 3.1, 3.2, 3.3., 4.1, 4.2, 4.3, 4.4, 5.1, 5.2, 5.3, 5.4 felsorolt elemei) az egyes követelményeket linkké kell alakítani, melyek arra az oldalra navigálnak, ahol láthatóak.</li>
+        <li>Ezen dokumentumot kitöltve mellékelni kell a beadott zip fájlban.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Hallgató adatai</h2>
+      <ul>
+        <li>Név: Félegyházi Dávid</li>
+        <li>Neptun-kód: TOOX08</li>
+        <li>Szak, évfolyam: Programtervező Informatika, 1. évfolyam</li>
+        <li>E-mail cím: david5@totalcar.hu</li>
+        <li>Használt szabvány: HTML5</li>
+		<br>
+		 <li>Név: Busa Kristóf</li>
+        <li>Neptun-kód: MI65SY</li>
+        <li>Szak, évfolyam: Gazdaságinformatika, 3. évfolyam</li>
+        <li>E-mail cím: tisof23@gmail.com</li>
+        <li>Használt szabvány: HTML5</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Választott téma</h2>
+      <p>A választott téma rövid (5-10 mondat) összefoglalása:</p>
+      <p>
+         A Jurrasic Park című film alapján készült Park Weblapja lenne ez. A lényege az, mintha valaki el akarna menni a parkba,
+		 hogy dínókat nézegessen. A honlap főoldala kedvcsináló és a park bemutatása, a további részek a dínók bemutatása, a dínók vásárlása és 
+		 a Gyakran Ismételt Kérdések (GYIK) megválaszolása. Mivel nincs egységes címe a Jurrasic Parknak és a Jurrasic Worldnek, így mi végig parkként
+		 hivatkozunk rá, és a Jurrasic World is a Park. Lehet követni Facebookon, Twitteren és Instán is a parkot, illetve a forgatási helyszínnek
+		 választott valódi parknak a címét is megadtuk. 
+      </p>
+    </div>
+    <div>
+      <h2>Pontozás</h2>
+      <p>
+        Ezt a részt az oktató tölti ki.
+      </p>
+      <table>
+        <tr class="header">
+          <th>
+            
+          </th>
+          <th>
+            Részfeladat
+          </th>
+          <th>
+            Szerezhető pontszám
+          </th>
+          <th>
+            Szerzett pontszám
+          </th>
+          <th>
+            Megjegyzés
+          </th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>
+            Formai követelmények
+			<span class="note">A fent felsorolt 4 szempont, elemenként 0,5 pont.</span>
+          </td>
+          <td>2</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="task">
+            Szabványos HTML oldalak
+            <span class="note">A minimálisan kötelező 5 oldalnak szabványosnak kell lennie. A pontszám nem törhető, hiány esetén 0 pont. </span>
+          </td>
+          <td>5</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="task" colspan="99">
+            Menü megvalósítás
+          </td>
+        </tr>
+        <tr>
+          <td>3.1</td>
+          <td class="subtask">
+            Linkek használata
+          </td>
+          <td>1</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>3.2</td>
+          <td class="subtask">
+            Lista használata
+          </td>
+          <td>1</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>3.3</td>
+          <td class="subtask">
+            CSS formázás
+            <span class="note">- Az aktuális menüpont eltérő. (1 pont)</span>
+            <span class="note">- Az egér rávitelével a kinézet módosul. (1 pont)</span>
+          </td>
+          <td>2</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="task" colspan="99">
+            A weboldal struktúrája
+          </td>
+        </tr>
+        <tr>
+          <td>4.1</td>
+          <td class="subtask">
+            Div elemekkel van kialakítva
+            <span class="note">Fejléc, lábléc, törzs, oldalsáv, menü. Elemenként 1 pont. </span>
+            <span class="note">HTML5 esetén HTML5 elemek (header, footer, main, aside, nav tagek használata).</span>
+          </td>
+          <td>5</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>4.2</td>
+          <td class="subtask">
+            Táblázat elemek szabályos használata
+            <span class="note">table, th, td, tr tagek használata, elemenként 0,5 pont.</span>
+          </td>
+          <td>2</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>4.3</td>
+          <td class="subtask">
+            Űrlap elemek használata
+            <span class="note">Legalább 5 féle beviteli mező (darabja 0,5 pont).</span>
+            <span class="note">Label elemekkel (darabja 0,5 pont).</span>
+          </td>
+          <td>5</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>4.4</td>
+          <td class="subtask">
+            Kép elem használata
+          </td>
+          <td>1</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="task" colspan="99">
+            CSS
+          </td>
+        </tr>
+        <tr>
+          <td>5.1</td>
+          <td class="subtask">
+            Elemkijelölő, azonosítókijelölő, <br>osztálykijelölő, összetett kijelölők használata
+			<span class="note">Típusonként 1 pont.</span>
+          </td>
+          <td>4</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>5.2</td>
+          <td class="subtask">
+            Nyomtatási stíluslap
+            <span class="note">Az 5 db HTML oldal egyikéhez elég elkészíteni <br>a stíluslapot az órán tanultaknak megfelelően.</span>
+          </td>
+          <td>2</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>5.3</td>
+          <td class="subtask">
+            <i>A weboldal struktúra elemeinek testreszabása</i>
+            <span class="note">-Reszponzív menü</span>
+            <span class="note">-Dropdown menügomb</span>
+            <span class="note">-Jobbra illetve balra pozícionált elemek (Főoldal -> videó (balra), illetve Főoldal -> képek (jobbra)</span>
+            <span class="note">-Középre pozícionált elem (A Jurrasic Park "homegombja")</span>
+			<span class="note">-Gombnyomásra megnyíló szöveg (GYIK)</span>
+			<span class="note">-Back to top gomb</span>
+          </td>
+          <td>6</td><td></td><td></td>
+        </tr>
+        <tr>
+          <td>5.4</td>
+          <td class="subtask">
+            <i>Dizájn</i>
+            <span class="note">A korábbi részfeladatok teljesítéséhez használt <br>szabályokon felül.</span>
+            <span class="note">- Linear-gradient háttér</span>
+            <span class="note">- Slide rendszer kreálása jQuery és JS nélkül</span>
+            <span class="note">- Videó implementálása</span>
+            <span class="note">- Animáció (Dínók képei)</span>
+            <span class="note">- Transzformáció (Home gomb)</span>
+            <span class="note">- Media query</span>
+            <span class="note">- Lekerekített sarkok (GYIK)</span>
+            <span class="note">- Árnyékok (Facebook, Twitter, Instagram gombok)</span>
+            <span class="note">- Lassan felmenő Back to top gomb</span>
+			<span class="note">- Automatikus frissítés</span>
+			<span class="note">- Böngésző fejlécében található weblap ikon</span>
+		<span class="note">- Reklámok</span>
+          </td>
+          <td>14</td><td></td><td></td>
+        </tr>
+        <tr class="sum">
+          <td colspan="2">Összpontszám:</td>
+          <td>50</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h2>Megjegyzés</h2>
+		Forrás:
+        <ul>
+			<li>Előadás, illetve gyakorlat anyaga</li>
+			<li>Google-képek</li>
+			<li>Youtube-videók</li>
+			<li>w3school.com</li>
+			<li>stackoverflow.com</li>
+			<li>wikipedia.com</li>
+			<li><a href="https://www.kualoa.com/">Maga a park</a></li>
+		</ul>
+	Az első oldal a home.html
+    </div>
+    <p> Közzétéve: 2019. 03. 01. </p>
+  </body>
+</html>

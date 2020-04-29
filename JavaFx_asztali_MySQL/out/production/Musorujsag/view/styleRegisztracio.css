@@ -1,0 +1,42 @@
+.test{
+    -fx-pref-width:1280;
+    -fx-pref-height:800;
+    -fx-background-color: rgba(255, 255, 255, 1);
+}
+.resz{
+    -fx-pref-width:640;
+    -fx-pref-height:800;
+}
+
+/******************************* TESTLÉC KEZDETE *******************************/
+
+.csatornak{}
+
+.details{
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+.boxes{
+    -fx-pref-width: 400;
+    -fx-pref-height: 50;
+    -fx-padding:10 10 10 10;
+    -fx-font-size: 15;
+    -fx-text-fill: grey;
+    -fx-border-style: solid;
+}
+.tf{
+    -fx-pref-width: 400;
+    -fx-pref-height:40;
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+}
+.savechanges{
+    -fx-pref-width:200;
+    -fx-pref-height:40;
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-background-color: red;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+/******************************* TESTLÉC VÉGE *******************************/

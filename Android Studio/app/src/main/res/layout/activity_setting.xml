@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hatter"
+    tools:context=".SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:layout_marginBottom="30sp"
+            android:fontFamily="@font/jb"
+            android:text="@string/LanguageText"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="187dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_marginBottom="70sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/hungarianButton"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginRight="30sp"
+                android:contentDescription="@string/hungarianDescription"
+                android:onClick="setHunLang"
+                app:srcCompat="@drawable/hungarian" />
+
+            <ImageButton
+                android:id="@+id/usButton"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:contentDescription="@string/usDescription"
+                android:onClick="setEngLang"
+                app:srcCompat="@drawable/us" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:fontFamily="@font/jb"
+            android:text="@string/SoundText"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="187dp"
+            tools:layout_editor_absoluteY="419dp" />
+
+        <RadioGroup
+            android:id="@+id/musicFlag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/yesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yesButton" />
+
+            <RadioButton
+                android:id="@+id/noButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/noButton" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:text="@string/SaveButton"
+            android:layout_marginTop="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/jb"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:onClick="savePressed"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

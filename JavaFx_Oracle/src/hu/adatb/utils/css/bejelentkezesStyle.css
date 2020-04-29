@@ -1,0 +1,80 @@
+.mainframe{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #4257CE,#C94EC0);
+}
+
+.box{
+    -fx-border-color:#FFFFFF;
+    -fx-border-width:20;
+    -fx-border-radius: 15 15 15 15;
+    -fx-background-radius: 15 15 15 15;
+
+}
+.loginBox{
+    -fx-background-color:#FFFFFF;
+}
+
+.title{
+    -fx-font-size: 40;
+}
+
+.lineLogin{
+    -fx-underline: true;
+}
+
+.buzditoText{
+    -fx-font-size: 20;
+}
+
+.loginTF{
+    -fx-pref-width: 300;
+    -fx-border-radius: 15 15 15 15;
+    -fx-background-radius: 15 15 15 15;
+    -fx-font-size: 20;
+}
+
+.loginButton{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #4257CE,#C94EC0);
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20;
+    -fx-border-radius: 15 15 15 15;
+    -fx-background-radius: 15 15 15 15;
+}
+
+.forgotLabel{
+    -fx-font-size: 20;
+}
+
+.regisztracioText{
+    -fx-font-size: 40;
+    -fx-fill: #FFFFFF;
+}
+
+.lineReg{
+    -fx-underline: true;
+    -fx-fill: #FFFFFF;
+}
+
+.buzditoReg{
+    -fx-font-size: 20;
+    -fx-fill: #FFFFFF;
+}
+
+.regBirthYearText{
+    -fx-font-size: 20;
+    -fx-fill: #FFFFFF;
+}
+
+.registButton{
+    -fx-background-color: rgb(0,0,0,0);
+    -fx-border:3;
+    -fx-border-color:#FFFFFF;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20;
+    -fx-border-radius: 15 15 15 15;
+    -fx-background-radius: 15 15 15 15;
+}
+
+.hibaText{
+    -fx-font-size: 16;
+    -fx-fill: #FF0000;
+}

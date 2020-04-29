@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Game Panel</title>
+		<style>
+			body{
+				background-image: linear-gradient(to bottom right, #4257CE, #C94EC0);
+				font-family: arial;
+				color: white;
+				padding: 50px 30px;
+			}
+			#title_container{
+				display: flex;
+				width: 100%;
+				font-size: 1.2em;
+				margin-bottom: 40px; 
+			}
+			.player{
+				text-align: center;
+				margin:auto;
+			}
+			#player_x{
+				color: red;
+			}
+			#player_o{
+				color: blue;
+				
+			}
+			#limit{
+				margin: 0 40%;
+			}
+			#game_container{
+				display: flex;
+			}
+			#menu{
+				margin: -18px 0;
+			}
+			.menu_button{
+				margin: 45px 0;
+			}
+			.load_button{
+				margin: 0px 10px;
+				height: 2.8em;
+				width: 200px;
+				background-color: Transparent;
+				border: 1px solid white;
+				border-radius: 10px;
+				color: white;
+			}
+			#game_area{
+				width: 500px;
+				height: 500px;
+				margin: auto;
+				border: solid 1px white;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id="title_container">
+			<div class="player">
+				<div class="player_name">Player1</div>
+				<div id="player_x">X</div>
+			</div>
+			<div id="limit">No Limit</div>
+			<div class="player">
+				<div class="player_name">Player1</div>
+				<div id="player_o">O</div>
+			</div>
+		</div>
+		<div id="game_container">
+			<div id="menu">
+				<div class="menu_button"><button type="button" class="load_button">Hint</button></div>
+				<div class="menu_button"><button type="button" class="load_button">New Game</button></div>
+				<div class="menu_button"><button type="button" class="load_button">Back to main</button></div>
+				<div class="menu_button"><button type="button" class="load_button">Save a game</button></div>
+				<div class="menu_button"><button type="button" class="load_button">Replay a game</button></div>
+				<div class="menu_button"><button type="button" class="load_button">Exit game</button></div>
+			</div>
+			<div id="game_area">
+				<!-- Ide kell a sok sok négyzet -->
+			</div>
+		</div>
+	</body>
+</html>

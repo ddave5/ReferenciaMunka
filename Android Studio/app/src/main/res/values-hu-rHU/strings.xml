@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Akasztófa</string>
+    <string name="PlayButton">Játék</string>
+    <string name="SettingsButton">Beállítások</string>
+    <string name="exitButton"> Kilépés</string>
+    <string name="LanguageText">Milyen nyelvű szavak legyenek?</string>
+    <string name="SoundText">Hang</string>
+    <string name="OnMusic">Be</string>
+    <string name="OffMusic">Ki</string>
+    <string name="SaveButton">Mentés</string>
+    <string name="hungarianDescription">Magyar nyelv beállítása</string>
+    <string name="usDescription">Angol nyelv beállítása</string>
+    <string name="yesButton">Igen</string>
+    <string name="noButton">Kihagyom</string>
+    <string name="mainpageImage">főoldalkép</string>
+    <string name="ops">Tippelési lehetőségek: </string>
+    <string name="badtiptext">Rossz találatok: </string>
+    <string name="hintplain">Egy betűt adjon meg</string>
+    <string name="backToMain">Főoldal</string>
+    <string name="youwon">Nyertél!</string>
+    <string name="youlose">Vesztettél!</string>
+    <string name="restart">Új játék</string>
+    <string name="goodAnswer">Megoldás: </string>
+</resources>

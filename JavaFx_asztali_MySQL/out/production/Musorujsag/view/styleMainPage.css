@@ -1,0 +1,118 @@
+/* H/VBOX KEZDETE*/
+
+.titleBox{
+    -fx-pref-width:1280;
+    -fx-pref-height:120;
+    -fx-background-color: rgba(255, 255, 255, 1);
+}
+.testBox{
+    -fx-pref-width:1280;
+    -fx-pref-height:700;
+
+}
+
+.csatornaBox{
+    -fx-pref-width:300;
+    -fx-pref-height:700;
+}
+
+.megjelenitoBox{
+    -fx-pref-width:1080;
+    -fx-pref-height:700;
+}
+
+.napokBox{
+    -fx-pref-width:1080;
+    -fx-pref-height:70;
+}
+
+.musorBox{
+    -fx-pref-width:1200;
+    -fx-pref-height:600;
+}
+
+.musorujsag{
+    -fx-pref-width:1080;
+    -fx-pref-height:530;
+}
+
+.tartalom{
+    -fx-pref-width: 950;
+    -fx-pref-height: 900;
+}
+
+.musoroszlop{
+    -fx-pref-width: 200;
+}
+/* H/VBOX VÉGE*/
+
+/* CIMBOX KEZDETE */
+.cim{
+    -fx-font-size: 50;
+    -fx-font-family: "Century Gothic";
+}
+
+.hellofh{
+    -fx-font-size: 20;
+    -fx-font-family: "Century Gothic";
+}
+/* CIMBOX VÉGE */
+
+/* CSATORNABOX KEZDETE*/
+
+.gombok{
+    -fx-pref-width:200;
+    -fx-pref-height:60;
+    -fx-font-size: 20;
+    -fx-font-family: "Century Gothic";
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color: #EBECF0;
+}
+
+/* CSATORNABOX VÉGE*/
+
+/* NAPOKBOX KEZDETE*/
+.leftright{
+    -fx-pref-width:40;
+    -fx-pref-height:40;
+    -fx-background-color:transparent;
+}
+
+.napok{
+    -fx-pref-width:150;
+    -fx-pref-height:30;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 20;
+
+}
+/* NAPOKBOX VÉGE */
+
+/*MŰSOROK*/
+.musor{
+    -fx-font-family: "Century Gothic";
+    -fx-pref-width: 200;
+
+}
+.hozzaadgomb{
+    -fx-pref-width:150;
+    -fx-font-family: "Century Gothic";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

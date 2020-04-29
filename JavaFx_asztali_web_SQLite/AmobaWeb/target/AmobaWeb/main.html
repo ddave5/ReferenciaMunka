@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Main</title>
+		<style>
+			body{
+				background-image: linear-gradient(to bottom right, #4257CE, #C94EC0);
+				font-family: arial;
+			}
+			#main_title{
+				margin: 50px 0; color: white; font-size: 40px; text-align: center;
+			}
+			#menu{
+				color: white; border: 15px solid white; border-radius: 15px; width: 450px; height: 450px; margin: auto;
+			}
+			.container{
+				margin: 60px 20px;
+				text-align: center;
+			}
+			.button_container{
+				display: flex;
+			}
+			.setup_container{
+				margin: 60px 10px;
+				display: flex;
+			}
+			.click_setup{
+				height: 2.8em;
+			}
+			.setup_label{
+				width: 205px;
+			}
+			.setup_value{
+				width: 205px;
+			}
+			.load_button{
+				margin: 0px 10px;
+				height: 2.8em;
+				width: 200px;
+				background-color: Transparent;
+				border: 1px solid white;
+				border-radius: 10px;
+				color: white;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id="main_title">Amőba</div>
+		<div id="menu">
+			<div class="container">
+				<div class="setup_container">
+					<div class="setup_label"><label for="gametype">Gametype:</label></div>
+					<div class="setup_value">
+						<select id="gametypes" class="click_setup">
+							<option value="volvo">Player v CPU</option>
+						</select>
+					</div>
+				</div>
+				<div class="setup_container">
+					<div class="setup_label">
+						<label for="number">Table size:</label>
+					</div>
+					<div class="setup_label">
+						<input id="number" name="number" type="number"  class="click_setup">
+					</div>
+				</div>
+				<div class="setup_container">
+					<div class="setup_label">
+						<label for="time">Time limit:</label>
+					</div>
+					<div class="setup_value">
+						<select id="time"  class="click_setup">
+						  <option value="none">None</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="button_container">
+				<div><button type="button" class="load_button">Load a previous game</button></div>
+				<div><button type="button" class="load_button">Start</button></div>
+			</div>
+		</div>
+	</body>
+</html>

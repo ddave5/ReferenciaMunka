@@ -1,0 +1,15 @@
+.splash-category {
+  margin: 20px;
+  background-image: transparent;
+}
+
+.splash-category mat-card{
+  width: 60%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}

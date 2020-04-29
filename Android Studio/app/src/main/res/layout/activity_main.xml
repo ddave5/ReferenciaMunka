@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hatter"
+    tools:context=".MainActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="355dp"
+            android:layout_height="214dp"
+            android:layout_marginTop="70sp"
+            android:contentDescription="@string/mainpageImage"
+            app:srcCompat="@drawable/fooldal"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginBottom="30sp"
+            android:background="@drawable/mybutton"
+            android:onClick="createGame"
+            android:text="@string/PlayButton"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/jb"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/settingButton"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:layout_marginBottom="30sp"
+            android:background="@drawable/mybutton"
+            android:onClick="createSettings"
+            android:text="@string/SettingsButton"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/jb"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:text="@string/exitButton"
+            android:background="@drawable/mybutton"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/jb"
+            android:onClick="exitGame"/>
+
+    </LinearLayout>
+</RelativeLayout>
