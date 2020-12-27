@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="game_engine">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../game_engine.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../game_engine.jar!/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../game_engine.jar!/" />
+    </SOURCES>
+  </library>
+</component>

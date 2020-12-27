@@ -15,6 +15,6 @@ export class AppService {
 
 
   getMovies(): Promise<Movie[]>{
-    return this.httpClient.get<Movie[]>('http://localhost:4200/assets/movies.json').toPromise();
+    return this.httpClient.get<Movie[]>('/assets/movies.json').toPromise();
   }
 }

@@ -1,0 +1,110 @@
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.exe
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.deps.json
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.runtimeconfig.json
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.runtimeconfig.dev.json
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.pdb
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.csprojAssemblyReference.cache
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.MainWindow.resources
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.csproj.GenerateResource.cache
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.AssemblyInfoInputs.cache
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.AssemblyInfo.cs
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.pdb
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.genruntimeconfig.cache
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.View.seriesAddModify.resources
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.csproj.CopyComplete
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\Datas\Egyetemi stuff\Alkfejl2\WinFormBead\TOOX08\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.csproj.CoreCompileInputs.cache
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.exe
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.deps.json
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.runtimeconfig.json
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.runtimeconfig.dev.json
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SorozatBakancs.pdb
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.csprojAssemblyReference.cache
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.MainWindow.resources
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.View.SeriesAddModify.resources
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.csproj.GenerateResource.cache
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.AssemblyInfoInputs.cache
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.AssemblyInfo.cs
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.csproj.CoreCompileInputs.cache
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.csproj.CopyComplete
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.dll
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.pdb
+C:\Users\Dávid\Kötprog2\SorozatBakancs\SorozatBakancs\obj\Debug\netcoreapp3.1\SorozatBakancs.genruntimeconfig.cache

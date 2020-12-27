@@ -35,8 +35,9 @@ export class StatisztikaComponent implements OnInit {
     this.leghosszabb();
     this.legrovidebb();
     this.atlagrating();
-    this.legjobb();
     this.legrosszabb();
+    this.legjobb();
+    
   }
 
   atlaghossz(){
@@ -82,7 +83,6 @@ export class StatisztikaComponent implements OnInit {
       
     atlagchart.render();
   }
-  
   leghosszabb(){
     let legnagyobbak: number[] =[];
     let max= 0;
@@ -250,11 +250,11 @@ export class StatisztikaComponent implements OnInit {
     legrosszabb.push(min);
     
     //this.kirajzol("legrovidebb","Kategóriák szerinti legrövidebb film", legrovidebbek);
-    var legrovidebbchart = new CanvasJS.Chart("legrovidebb", {
+    var legrosszabbchart = new CanvasJS.Chart("legrosszabb", {
       animationEnabled: true,
       exportEnabled: true,
       title: {
-        text: "Kategóriák szerinti legrövidebb film",
+        text: "Kategóriák szerinti legrosszabb film",
       },
       data: [{
         type: "column",
@@ -269,7 +269,7 @@ export class StatisztikaComponent implements OnInit {
       }]
     });
       
-    legrovidebbchart.render();
+    legrosszabbchart.render();
   }
   legjobb(){
     let legnagyobbak: number[] =[];
@@ -298,7 +298,7 @@ export class StatisztikaComponent implements OnInit {
     this.dramak.forEach( movie => {if (movie.imdb> max ){max = movie.imdb;}});
     legnagyobbak.push(max);
   
-    var leghosszabbchart = new CanvasJS.Chart("leghosszabb", {
+    var legjobbchart = new CanvasJS.Chart("legjobb", {
       animationEnabled: true,
       exportEnabled: true,
       title: {
@@ -317,7 +317,7 @@ export class StatisztikaComponent implements OnInit {
       }]
     });
       
-    leghosszabbchart.render();
+    legjobbchart.render();
   }
 
   kirajzol(id: string, cim: string, adatok: number[]){

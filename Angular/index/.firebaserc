@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webfejl-kotprog": {
+      "hosting": {
+        "index": [
+          "webfejl-kotprog"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webfejl-kotprog"
+  }
+}
